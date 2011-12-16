@@ -30,7 +30,9 @@ offers the same feature set regarding minified in non-dev-stage vs. un-minified 
 
 Versioning
 ---
-Plugin version conetion is <javascript-libraryversion>.<plugin-minor-for-fixes>
+Plugin version convetion is 
+
+	<javascript-libraryversion>.<plugin-minor-for-fixes>
 
 Copyright and License
 ---
