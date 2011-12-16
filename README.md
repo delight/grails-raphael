@@ -30,10 +30,11 @@ offers the same feature set regarding minified in non-dev-stage vs. un-minified 
 
 Versioning
 ---
-Plugin version conetion is <javascript-libraryversion>[<.plugin-minor-for-fixes>]
+Plugin version conetion is <javascript-libraryversion>.<plugin-minor-for-fixes>
 
 Copyright and License
 ---
+
 raphael plugin:
 
 Copyright © 2011 Konstantinos Kostarellis
@@ -51,6 +52,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 Raphaël JavaScript Library:
+
 The MIT License
 Copyright © 2008 Dmitry Baranovskiy
 
