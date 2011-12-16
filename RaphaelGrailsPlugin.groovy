@@ -30,6 +30,7 @@ class RaphaelGrailsPlugin {
     ]
 
     def title = "Raphaël for Grails"
+    def scm = [ url: "https://github.com/delight/grails-raphael" ]
     def author = "Konstantinos Kostarellis"
     def authorEmail = "kosta.grails@gmail.com"
     def description = '''\
