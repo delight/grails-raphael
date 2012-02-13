@@ -1,5 +1,5 @@
 /*
- * Copyright 2007-2009 Konstantinos Kostarellis.
+ * Copyright 2011-2012 Konstantinos Kostarellis.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@
  */
 class RaphaelGrailsPlugin {
     // the plugin version which matches the version of the javascript library
-    def version = "2.0.1"
+    def version = "2.0.2"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.3 > *"
     // the other plugins this plugin depends on
@@ -30,9 +30,8 @@ class RaphaelGrailsPlugin {
     ]
 
     def title = "Raphaël for Grails"
-    def scm = [ url: "https://github.com/delight/grails-raphael" ]
     def author = "Konstantinos Kostarellis"
-    def authorEmail = "kosta.grails@gmail.com"
+    def authorEmail = "kosta@shortmail.me"
     def description = '''\
 Plugin that provides the JavaScript Vector Library Raphaël. Cross-browser vector graphics the easy way.
 It integrates nicely with the resources plugin.
@@ -47,10 +46,10 @@ It integrates nicely with the resources plugin.
     def license = 'APACHE'
 
     // Location of the plugin's issue tracker.
-//    def issueManagement = [ system: "JIRA", url: "http://jira.grails.org/browse/GPMYPLUGIN" ]
+    def issueManagement = [ system: "GITHUB", url: "https://github.com/delight/grails-raphael/issues" ]
 
     // Online location of the plugin's browseable source code.
-//    def scm = [ url: "http://svn.grails-plugins.codehaus.org/browse/grails-plugins/" ]
+    def scm = [ url: "https://github.com/delight/grails-raphael" ]
 
     def doWithWebDescriptor = { xml ->
         // TODO Implement additions to web.xml (optional), this event occurs before
