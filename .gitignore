@@ -1,5 +1,11 @@
+*.iws
+.settings
+/*.zip
 /plugin.xml
-grails-*.zip
-target/
-c.tld
-fmt.tld
+*.log
+.DS_Store
+/target/
+/out/
+/web-app/WEB-INF
+/.link_to_grails_plugins/
+/target-eclipse/
